@@ -1,0 +1,50 @@
+{
+  "name": "react-webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subtora/usbc-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subtora/react-webpack-example/issues"
+  },
+  "homepage": "https://github.com/Subtora/react-webpack-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node": "^11.15.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^7.3.1",
+    "semantic-ui-react": "^0.88.2",
+    "style-loader": "^0.23.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "framer-motion": "^1.8.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-lazyload": "^2.6.5",
+    "react-router-dom": "^4.3.1",
+    "react-socks": "^2.1.0",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
