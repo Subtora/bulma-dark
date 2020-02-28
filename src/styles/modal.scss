@@ -1,0 +1,14 @@
+.modal.is-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modal {
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transition: opacity .09s ease;
+}

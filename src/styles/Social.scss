@@ -1,0 +1,39 @@
+
+.button,
+.social a {
+  transform-origin: center;
+  transition-duration: 100ms;
+}
+
+.social {
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 1.5rem;
+  transform: translateX(-15px);
+  ul{
+    display: flex;
+  }
+  li {
+    height: 2rem;
+    text-align: center;
+    width: 3rem;
+  }
+  a {
+    color: #9a9a9a;
+    align-items: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 2rem;
+    justify-content: center;
+    opacity: 0.5;
+    transition-property: opacity, transform;
+    width: 2rem;
+    will-change: opacity, transform;
+    &:hover {
+      opacity: 0.9;
+    }
+    &:active {
+      opacity: 1;
+    }
+  }
+}

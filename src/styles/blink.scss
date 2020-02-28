@@ -1,13 +1,10 @@
 .blink::after {
   content: "";
-  top: 0;
-  right: -15px;
   display: inline-block;
   background-color: #606060;
-  vertical-align: top;
-  width: 10px;
-  height: 24px;
-  -webkit-animation: blink 1s step-end infinite;
+  vertical-align: bottom;
+  width: 20px;
+  height: 7px;
   animation: blink 1s step-end infinite;
 }
 

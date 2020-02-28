@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../scripts/burger.js"
+import "../styles/modal.scss"
 
 export default function Modal() {
   return (
